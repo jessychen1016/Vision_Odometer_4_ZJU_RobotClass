@@ -16,7 +16,7 @@
 
 * Run samples provided by the SDK to peek into how Realsense works.
 
-* If you are using Windows, please download "Dynamic Link Lib" from release in this repository into your own "bin" folder
+* If you are using Windows, please download "Dynamic Link Lib" from release in this repository into your own "bin" folder after building your project.
 
 * Run the demonstation I provides above with an IDE (for Windows, VS2015 recommanded) to get in touch with realsense APIs.
 
