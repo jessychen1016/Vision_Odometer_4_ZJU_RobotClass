@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/examples -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party/glfw -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party/imgui -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/librealsense2 -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/local/include -isystem /usr/local/include/opencv   -std=c++11   -fPIC -std=gnu++11 -o CMakeFiles/RealSenseDNNExample.dir/rs-dnn1.cpp.o -c /home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/rs-dnn1.cpp",
+  "file": "/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/rs-dnn1.cpp"
+},
+{
+  "directory": "/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/examples -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party/glfw -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/third-party/imgui -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/librealsense2 -I/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/local/include -isystem /usr/local/include/opencv   -std=c++11   -fPIC -std=gnu++11 -o CMakeFiles/RealSenseDNNExample.dir/include/actionmodule.cpp.o -c /home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/actionmodule.cpp",
+  "file": "/home/jessy/Desktop/BlackOutMissionTwo/TechnicalBO/include/actionmodule.cpp"
+}
+]
