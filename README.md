@@ -16,9 +16,9 @@
 
 * Run samples provided by the SDK to peek into how Realsense works.
 
-* Download "Dynamic Link Lib" from release in this repository into your own "bin" folder
+* If you are using Windows, please download "Dynamic Link Lib" from release in this repository into your own "bin" folder
 
-* Run the demonstation I provides above with an IDE (VS2015 recommanded) to get in touch with realsense APIs.
+* Run the demonstation I provides above with an IDE (for Windows, VS2015 recommanded) to get in touch with realsense APIs.
 
 * Replace actionmodule.cpp, actionmodule.h in the "include" file with your own command sender to send command to your own robot.
 
