@@ -20,7 +20,7 @@
 
 * Run the demonstation I provides above with an IDE (for Windows, VS2015 recommanded) to get in touch with realsense APIs.
 
-* Replace actionmodule.cpp, actionmodule.h in the "include" file with your own command sender to send command to your own robot.
+* Replace actionmodule.cpp, actionmodule.h in the "include" folder with your own command sender to send command to your own robot.
 
 * Write your own code to realize VO function.
 
