@@ -61,6 +61,10 @@ int main(int argc, char** argv) try
    
     // Start streaming from Intel RealSense Camera
     pipeline pipe;
+ // Declare pointcloud object, for calculating pointclouds and texture mappings
+    rs2::pointcloud pc;
+    // We want the points object to be persistent so we can display the last cloud when a frame drops
+    rs2::points points;
 
     //add filter
 
@@ -107,7 +111,8 @@ int main(int argc, char** argv) try
         // depth_frame= hole_filling_filter.process(depth_frame);
         // depth_frame= spatial_filter.process(depth_frame);
 
-
+        // Generate the pointcloud and texture mappings
+        points = pc.calculate(depth);
 		// If we only received new depth frame, 
 		// but the color did not update, continue
 		static int last_frame_number = 0;
