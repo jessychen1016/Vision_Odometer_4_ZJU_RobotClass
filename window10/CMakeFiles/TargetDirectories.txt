@@ -1,3 +1,0 @@
-C:/Users/Jessy/Desktop/BallDetectionMissionOne/windows/CMakeFiles/BlackOutOne.dir
-C:/Users/Jessy/Desktop/BallDetectionMissionOne/windows/CMakeFiles/ALL_BUILD.dir
-C:/Users/Jessy/Desktop/BallDetectionMissionOne/windows/CMakeFiles/ZERO_CHECK.dir

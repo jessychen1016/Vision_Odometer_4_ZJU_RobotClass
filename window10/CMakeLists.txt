@@ -48,7 +48,6 @@ SET(INCLUDE_DIRS ${CMAKE_CURRENT_LIST_DIR}/include
                  ${CMAKE_CURRENT_LIST_DIR}/include/kalmanfilter.h
                  ${CMAKE_CURRENT_LIST_DIR}/include/singleton.hpp
                  ${CMAKE_CURRENT_LIST_DIR}/include/matrix2d.h
-                 ${CMAKE_CURRENT_LIST_DIR}/include/GetImage.h
                  ${QT_INCLUDE}
                  )
 
@@ -59,7 +58,6 @@ file(GLOB SOURCE ${CMAKE_CURRENT_LIST_DIR}/Demo.cpp
                  ${CMAKE_CURRENT_LIST_DIR}/include/kalmanfilter.cpp
                  ${CMAKE_CURRENT_LIST_DIR}/include/matrix2d.cpp
                  ${CMAKE_CURRENT_LIST_DIR}/include/gotoposition.cpp
-                 ${CMAKE_CURRENT_LIST_DIR}/include/GetImage.cpp
                  )
 
 # 链接文件
@@ -87,7 +85,6 @@ file(GLOB LINK_DIRS ${CMAKE_CURRENT_LIST_DIR}/lib/x64/realsense2.lib
 					${QT_LIB}/x64/Qt5Network.lib
 					${QT_LIB}/x64/Qt5Core.lib
 					${CMAKE_CURRENT_LIST_DIR}/lib/pthreadVC2.lib
-					${CMAKE_CURRENT_LIST_DIR}/lib/libpthreadGC2.a
 					)
 
 # 添加头文件

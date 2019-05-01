@@ -5,8 +5,8 @@
 #include <opencv2/dnn.hpp>
 #include <librealsense2/rs.hpp>
 #include <librealsense2/rs_advanced_mode.hpp>
-#include "example.hpp"
-#include "cv-helpers.hpp"
+// #include "example.hpp"
+// #include "cv-helpers.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include <opencv2/core/core.hpp>
@@ -95,7 +95,7 @@ int main(int argc, char** argv) try
 
  
 
-	while (cvGetWindowHandle(window_name))
+	while (cvGetWindowHandle("HaHa"))
 		// for(int i = 0; i<60 && cvGetWindowHandle(window_name) ; i++)
 	{
 		auto start_time = clock();
@@ -112,7 +112,7 @@ int main(int argc, char** argv) try
         // depth_frame= spatial_filter.process(depth_frame);
 
         // Generate the pointcloud and texture mappings
-        points = pc.calculate(depth);
+        points = pc.calculate(depth_frame);
 		// If we only received new depth frame, 
 		// but the color did not update, continue
 		static int last_frame_number = 0;
